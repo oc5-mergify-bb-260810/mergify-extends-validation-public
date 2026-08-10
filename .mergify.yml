@@ -1,4 +1,3 @@
-extends: mergify-hidden-extends
 pull_request_rules:
   - name: BB public base rule
     conditions:
