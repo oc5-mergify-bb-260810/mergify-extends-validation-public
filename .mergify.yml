@@ -1,3 +1,11 @@
+extends: mergify-hidden-extends@bb-private-extends-ref-20260810-a41c
+pull_request_rules:
+  - name: BB public base rule
+    conditions:
+      - title = BB public never match
+    actions:
+      comment:
+        message: BB_PUBLIC_BASE_CONFIG_20260810
 pull_request_rules:
   - name: BB public base rule
     conditions:
